@@ -11,4 +11,9 @@
 # iOS巨魔V2.0 安装指南 TrollStore 二代
 ![](https://mmbiz.qpic.cn/mmbiz_png/CqwzFPUx3cud7OvxDicIWBuNNtBsBRYcmlhwlIicibo0P9ia82gcL3GjQqHicFfe8tANSAmKE7vHdvNa5ibfeib6bRuog/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
 
+# TrollSpeed 状态栏网速显示
+
+下载地址: https://github.com/Lessica/TrollSpeed
+![](https://user-images.githubusercontent.com/5410705/213263734-1ef1b553-88d4-41cc-856e-891ea08d185c.jpeg)
+
 
