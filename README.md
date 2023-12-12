@@ -1,4 +1,4 @@
-# iOS巨魔二代发布了
+# iOS巨魔二代 TrollStore2 安装教程 Install Guide
 
 ## 安装指南: [巨魔2代安装教程](https://mp.weixin.qq.com/s?__biz=Mzg5OTgzNTgxNQ==&mid=2247498844&idx=1&sn=b497c933929829ae3775bfd5f9db2294&chksm=c04f8e94f73807822aff9f55a5abad8fb493a7a1a87e7fa3d3cc9e602d1ea5f2695419e25b92&mpshare=1&scene=23&srcid=1129WPEBZ0T9ak21rD5gAmiV&sharer_shareinfo=67a45866776d013ee0dd8d8fcd14e96e&sharer_shareinfo_first=67a45866776d013ee0dd8d8fcd14e96e#rd)
 
