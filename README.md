@@ -22,17 +22,29 @@ A certificate validation issue was addressed. This issue is fixed in iOS 16.7 an
 
 References
 https://nvd.nist.gov/vuln/detail/CVE-2023-41991
+
 https://support.apple.com/en-us/HT213926
+
 https://support.apple.com/en-us/HT213927
+
 https://support.apple.com/en-us/HT213928
+
 https://support.apple.com/en-us/HT213929
+
 https://support.apple.com/en-us/HT213931
+
 https://support.apple.com/kb/HT213926
+
 http://seclists.org/fulldisclosure/2023/Sep/14
+
 http://seclists.org/fulldisclosure/2023/Sep/15
+
 http://seclists.org/fulldisclosure/2023/Sep/16
+
 http://seclists.org/fulldisclosure/2023/Sep/17
+
 http://seclists.org/fulldisclosure/2023/Sep/19
+
 http://seclists.org/fulldisclosure/2023/Oct/5
 
 <p align="left">
