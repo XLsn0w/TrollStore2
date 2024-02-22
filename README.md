@@ -7,6 +7,9 @@
 
 ## 安装指南: [巨魔2代安装教程](https://mp.weixin.qq.com/s?__biz=Mzg5OTgzNTgxNQ==&mid=2247498844&idx=1&sn=b497c933929829ae3775bfd5f9db2294&chksm=c04f8e94f73807822aff9f55a5abad8fb493a7a1a87e7fa3d3cc9e602d1ea5f2695419e25b92&mpshare=1&scene=23&srcid=1129WPEBZ0T9ak21rD5gAmiV&sharer_shareinfo=67a45866776d013ee0dd8d8fcd14e96e&sharer_shareinfo_first=67a45866776d013ee0dd8d8fcd14e96e#rd)
 
+## 多巴胺二代 iOS 15.0 - 16.6.1 越狱指南 Dopamine 2.0 分享下载
+## 教程指南: [](https://mp.weixin.qq.com/s?__biz=Mzg5OTgzNTgxNQ==&mid=2247501067&idx=1&sn=6f9f9593c45d306abefb8665ff2a4d56&chksm=c04fb7c3f7383ed5578eac45c7e117b981304dbcb03a110f6357ff8010903dda572e6aa1d082&mpshare=1&scene=23&srcid=0220VmDogq6j8CKck41UfAHA&sharer_shareinfo=958ba8519e1011f509a07fe8b5e6f55a&sharer_shareinfo_first=958ba8519e1011f509a07fe8b5e6f55a#rd)
+
 TrollStore 官方网站：
 
 https://github.com/opa334/TrollStore
