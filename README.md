@@ -1,6 +1,7 @@
 # iOS巨魔二代 TrollStore2 安装教程 Install Guide
 
 # 公众号Cydiapps 持续更新巨魔IPA和使用教程
+![](https://mmbiz.qpic.cn/mmbiz_jpg/CqwzFPUx3ctlvhiaKFaaIwemTHgsib2zcTsXNvRxq9NGzEMQOUibFfKKvhuaC0U5SYLOV15EhjCLcvtruYkiaa6ang/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
 
 巨魔二代 更新支持 iOS16.5.1 - 16.6.1 （16.7）发布
 ## [巨魔二代 更新支持 iOS16.5.1 - 16.6.1 （16.7）发布](https://mp.weixin.qq.com/s?__biz=Mzg5OTgzNTgxNQ==&mid=2247499810&idx=1&sn=baa2a4d4788e11b5aa2728e9d6e853b4&chksm=c04fb2eaf7383bfc286ba52cee717d64e45063cdb6cf6026607ccfc717cf0e1fa8d29c744193&mpshare=1&scene=23&srcid=010325KqeD9sZ1JtPgQpP17y&sharer_shareinfo=fc90923edee2f19de2f26f72b9e1bcfe&sharer_shareinfo_first=fc90923edee2f19de2f26f72b9e1bcfe#rd)
