@@ -19,9 +19,11 @@ TrollStore 官方网站：
 https://github.com/opa334/TrollStore
 
 🔴iOS 14.0bata 1 及更早版本 + iOS 17.0.1及更高版本，永不支持安装巨魔！
-🔴iOS 16.7 – 16.7.5 不支持安装（没有支持漏洞）
-🟢iOS 17.0 beta1-5 支持安装，但是目前成功率不高，可以试试！！！
 
+🔴iOS 16.7 – 16.7.5 不支持安装（没有支持漏洞）
+
+🟢iOS 17.0 beta1-5 支持安装，但是目前成功率不高，可以试试！！！
+![](https://mmbiz.qpic.cn/mmbiz_png/CqwzFPUx3cuxOXv4427PHbKicbiaE8PibVYXMC5sxGGYEmjiaGtKbplkU3IWOfcrqY5FfrmibuUmGao4suQdFyialX6A/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
 
 TrollStore 官方发布：
 
