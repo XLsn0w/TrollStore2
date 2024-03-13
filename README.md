@@ -18,6 +18,9 @@ TrollStore 官方网站：
 
 https://github.com/opa334/TrollStore
 
+# iOS巨魔商店 利用的漏洞
+https://github.com/advisories/GHSA-fj3m-2r8f-m4x9
+
 ## 巨魔商店优点
 ```
 完全免费
