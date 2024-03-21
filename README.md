@@ -159,7 +159,7 @@ Installing TrollStore with misaka
 
 # TrollSpeed 状态栏网速显示
 
-# 安装 Theos 环境
+# 安装 Theos 环境 指南
 
 1、Mac需先安装Homebrew，参考Homebrew官网 https://brew.sh
 2、终端命令 安装 ldid
