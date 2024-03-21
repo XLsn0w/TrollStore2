@@ -159,6 +159,176 @@ Installing TrollStore with misaka
 
 # TrollSpeed 状态栏网速显示
 
+# 安装 Theos 环境
+
+1、Mac需先安装Homebrew，参考Homebrew官网 https://brew.sh
+2、终端命令 安装 ldid
+
+brew install ldid
+或
+brew install ldid fakeroot
+结果如下
+
+Warning: ldid 2.1.4 is already installed and up-to-date.
+To reinstall 2.1.4, run:
+  brew reinstall ldid
+说明已经安装过
+
+其中fakeroot作用是模拟root权限。
+
+3、安装dpkg
+
+brew install dpkg
+提示如下错误：
+
+==> Downloading https://mirrors.ustc.edu.cn/homebrew-bottles/perl-5.32.1_1.big_sur.bottle.tar.gz
+##O=#  #                                                                      
+curl: (22) The requested URL returned error: 404 
+Warning: Bottle missing, falling back to the default domain...
+
+
+==> Installing dependencies for dpkg: perl and xz
+==> Installing dpkg dependency: perl
+==> Pouring perl-5.32.1_1.big_sur.bottle.tar.gz
+tar: Error opening archive: Failed to open '/Users/username/Library/Caches/Homebrew/downloads/b1234--perl-5.32.1_1.big_sur.bottle.tar.gz'
+Error: Failure while executing; `tar --extract --no-same-owner --file /Users/username/Library/Caches/Homebrew/downloads/b1234--perl-5.32.1_1.big_sur.bottle.tar.gz --directory /private/tmp/d20210618-19986-v9dv84` exited with 1. Here's the output:
+tar: Error opening archive: Failed to open '/Users/username/Library/Caches/Homebrew/downloads/b1234--perl-5.32.1_1.big_sur.bottle.tar.gz'
+经分析是
+
+是bintray即将关闭，新版的homebrew去除了bintray相关，开始使用ghcr.io服务，而我本地的镜像仍然指向bintray
+
+解决方案1
+既然这个镜像下载不了perl-5.32.1_1.big_sur.bottle，那我们干脆直接去对应网站https://bintray.com 手动下载perl-5.32.1_1.big_sur.bottle，然后把下载后的perl-5.32.1_1.big_sur.bottle放在本地对应的目录即可安装。
+
+根据报错的提示，把下载后的perl-5.32.1_1.big_sur.bottle放入/Users/username/Library/Caches/Homebrew/downloads/下面并重命名为
+b1234--perl-5.32.1_1.big_sur.bottle.tar.gz
+
+然后终端执行命令
+
+brew install dpkg
+发现不用再去下载，安装成功，结果如下
+
+==> Downloading https://mirrors.ustc.edu.cn/homebrew-bottles/perl-5.32.1_1.big_sur.bottle.tar.gz
+Already downloaded: /Users/username/Library/Caches/Homebrew/downloads/b1234--perl-5.32.1_1.big_sur.bottle.tar.gz
+==> Downloading https://mirrors.ustc.edu.cn/homebrew-bottles/xz-5.2.5.big_sur.bottle.tar.gz
+Already downloaded: /Users/username/Library/Caches/Homebrew/downloads/c5678--xz-5.2.5.big_sur.bottle.tar.gz
+==> Downloading https://mirrors.ustc.edu.cn/homebrew-bottles/dpkg-1.20.9.big_sur.bottle.tar.gz
+Already downloaded: /Users/username/Library/Caches/Homebrew/downloads/b9804--dpkg-1.20.9.big_sur.bottle.tar.gz
+==> Installing dependencies for dpkg: perl and xz
+==> Installing dpkg dependency: perl
+==> Pouring perl-5.32.1_1.big_sur.bottle.tar.gz
+==> Caveats
+By default non-brewed cpan modules are installed to the Cellar. If you wish
+for your modules to persist across updates we recommend using `local::lib`.
+
+You can set that up like this:
+  PERL_MM_OPT="INSTALL_BASE=$HOME/perl5" cpan local::lib
+  echo 'eval "$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib=$HOME/perl5)"' >> ~/.zshrc
+==> Summary
+🍺  /usr/local/Cellar/perl/5.32.1_1: 2,467 files, 65MB
+==> Installing dpkg dependency: xz
+==> Pouring xz-5.2.5.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/xz/5.2.5: 95 files, 1.4MB
+==> Installing dpkg
+==> Pouring dpkg-1.20.9.big_sur.bottle.tar.gz
+==> Caveats
+This installation of dpkg is not configured to install software, so
+commands such as `dpkg -i`, `dpkg --configure` will fail.
+==> Summary
+🍺  /usr/local/Cellar/dpkg/1.20.9: 616 files, 14.2MB
+==> `brew cleanup` has not been run in 30 days, running now...
+Removing: /usr/local/Cellar/openssl@1.1/1.1.1j... (8,071 files, 18.5MB)
+Removing: /Users/username/Library/Logs/Homebrew/chisel... (64B)
+Pruned 0 symbolic links and 6 directories from /usr/local
+==> Caveats
+==> perl
+By default non-brewed cpan modules are installed to the Cellar. If you wish
+for your modules to persist across updates we recommend using `local::lib`.
+
+You can set that up like this:
+  PERL_MM_OPT="INSTALL_BASE=$HOME/perl5" cpan local::lib
+  echo 'eval "$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib=$HOME/perl5)"' >> ~/.zshrc
+==> dpkg
+This installation of dpkg is not configured to install software, so
+commands such as `dpkg -i`, `dpkg --configure` will fail.
+解决方案2
+解决方案2我没有尝试，仅做记录。
+查阅资料，有的说去掉本地的镜像即可，使用如下命令临时修改
+
+export HOMEBREW_BOTTLE_DOMAIN=''
+也可以根据电脑实际情况打开对应的配置文件进行修改
+
+vim ~/.bash_profile
+或
+vim ~/.zshrc
+4、GitHub上下载theos代码并放到本地/opt/theos目录，
+recursive参数作用是拉取所有子模块。
+
+sudo git clone --recursive https://github.com/theos/theos.git /opt/theos
+下载安装theos过程中有时会遇到下载失败或其子模块下载安装失败，此时要到/opt目录下把theos删除掉，然后重新下载，最好一次包括子模块全部下载成功。
+
+5、修改theos权限
+
+sudo chown $(id -u):$(id -g) /opt/theos
+或
+
+sudo chown -R $(id -u):$(id -g) /opt/theos
+6、配置环境变量，根据本地电脑实际情况，打开对应配置文件
+
+vim ~/.bash_profile
+或
+vim ~/.zshrc
+写入如下配置
+
+export THEOS=/opt/theos
+export PATH=/opt/theos/bin/:$PATH
+:wq保存退出
+
+如果电脑默认为zsh且theos的环境变量配置在~/.bash_profile中，
+那么需要
+vim ~/.zshrc
+然后在~/.zshrc中写入
+
+source ~/.bash_profile
+source /etc/profile
+并:wq保存退出。
+
+然后终端执行
+
+source ~/.bash_profile
+或
+source ~/.zshrc
+7、验证theos是否安装成功
+终端命令
+
+nic.pl
+得到如下结果,表示成功
+
+NIC 2.0 - New Instance Creator
+------------------------------
+  [1.] iphone/activator_event
+  [2.] iphone/activator_listener
+  [3.] iphone/application_modern
+  [4.] iphone/application_swift
+  [5.] iphone/cydget
+  [6.] iphone/flipswitch_switch
+  [7.] iphone/framework
+  [8.] iphone/library
+  [9.] iphone/notification_center_widget
+  [10.] iphone/notification_center_widget-7up
+  [11.] iphone/preference_bundle_modern
+  [12.] iphone/theme
+  [13.] iphone/tool
+  [14.] iphone/tool_swift
+  [15.] iphone/tweak
+  [16.] iphone/tweak_with_simple_preferences
+  [17.] iphone/xpc_service
+Choose a Template (required): 
+如果出现
+zsh: command not found:nic.pl
+说明theos安装失败,重复以上操作,确保克隆theos.git时包括子模块一次性完整的成功,然后正确配置环境变量.
+
+
 下载地址: https://github.com/Lessica/TrollSpeed
 ![](https://user-images.githubusercontent.com/5410705/213263734-1ef1b553-88d4-41cc-856e-891ea08d185c.jpeg)
 
