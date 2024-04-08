@@ -1,10 +1,11 @@
-# iOS巨魔二代 TrollStore2 安装教程 Install Guide
+# iOS巨魔二代 安装教程 TrollStore2 Install Guide
 
-# 巨魔二代 iOS15.0-16.6.1 新手指南
 # iOS16 巨魔二代 界面汉化 版本更新指南
 
-教程地址: [点击查看](https://mp.weixin.qq.com/s?__biz=Mzg5OTgzNTgxNQ==&mid=2247502087&idx=2&sn=1589cda6d67b180880ff0ead7b55243d&chksm=c04fbbcff73832d9879f15d608c574e7b90561069feaafc7bfc6022f210dc87cd309d5e0795f&mpshare=1&scene=23&srcid=0408IfVzLvBGmniYF32NX0XW&sharer_shareinfo=58584327ead0f681742c93e21afbaa98&sharer_shareinfo_first=58584327ead0f681742c93e21afbaa98#rd)
+## 教程地址: [点击查看](https://mp.weixin.qq.com/s?__biz=Mzg5OTgzNTgxNQ==&mid=2247502087&idx=2&sn=1589cda6d67b180880ff0ead7b55243d&chksm=c04fbbcff73832d9879f15d608c574e7b90561069feaafc7bfc6022f210dc87cd309d5e0795f&mpshare=1&scene=23&srcid=0408IfVzLvBGmniYF32NX0XW&sharer_shareinfo=58584327ead0f681742c93e21afbaa98&sharer_shareinfo_first=58584327ead0f681742c93e21afbaa98#rd)
 ![](https://mmbiz.qpic.cn/mmbiz_jpg/CqwzFPUx3cu07LOlnBA47neoqVRzHibxVMEXNtc7DoNCWT0P7Saia0Uod1scSu7V1YZ1d9jMQhgia5gxHJm1eSe6g/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+# 巨魔二代 iOS15.0-16.6.1 新手指南
 
 [巨魔二代 iOS15.0-16.6.1 新手指南](https://mp.weixin.qq.com/s?__biz=Mzg5OTgzNTgxNQ==&mid=2247501758&idx=1&sn=2320b045097cbbacc74352b84e4b6f30&chksm=c04fb576f7383c60025081f01275fd0c668a8540f5d91065a845862b1da30b548c460e973ec7&token=1839537929&lang=zh_CN#rd)
 
