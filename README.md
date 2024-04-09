@@ -25,6 +25,10 @@
 ## 多巴胺二代 iOS 15.0 - 16.6.1 越狱指南 Dopamine 2.0 分享下载
 ## 教程指南: [多巴胺二代越狱指南](https://mp.weixin.qq.com/s?__biz=Mzg5OTgzNTgxNQ==&mid=2247501067&idx=1&sn=6f9f9593c45d306abefb8665ff2a4d56&chksm=c04fb7c3f7383ed5578eac45c7e117b981304dbcb03a110f6357ff8010903dda572e6aa1d082&mpshare=1&scene=23&srcid=0220VmDogq6j8CKck41UfAHA&sharer_shareinfo=958ba8519e1011f509a07fe8b5e6f55a&sharer_shareinfo_first=958ba8519e1011f509a07fe8b5e6f55a#rd)
 
+使Xcode支持调试任意第三方签名的App或者进程，包括系统进程  
+使Xcode支持查看任意App界面布局
+推荐使用deb这款插件:  https://github.com/lich4/debugserver_azj
+
 iOS 15.0 - 16.6.1越狱源推荐--看截图
 ![[](https://mmbiz.qpic.cn/mmbiz_jpg/CqwzFPUx3csLicMGRZMuicQ6jy6qJ8uF1QrOJpPkicqoKTBucec9DtlYcF0mFsRxnHgv2qZsQcoHJXUhofSvent5w/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 ![](https://mmbiz.qpic.cn/mmbiz_jpg/CqwzFPUx3csLicMGRZMuicQ6jy6qJ8uF1Q2dQjibFamFjiaOptIhS4r8cD2IAUrnvotMWWrmCOCIrfArdLvEQAh2jA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
