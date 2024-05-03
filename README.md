@@ -2,7 +2,7 @@
 
 # iOS16 巨魔二代 界面汉化 版本更新指南
 
-## 教程地址: [点击查看](https://mp.weixin.qq.com/s?__biz=Mzg5OTgzNTgxNQ==&mid=2247502087&idx=2&sn=1589cda6d67b180880ff0ead7b55243d&chksm=c04fbbcff73832d9879f15d608c574e7b90561069feaafc7bfc6022f210dc87cd309d5e0795f&mpshare=1&scene=23&srcid=0408IfVzLvBGmniYF32NX0XW&sharer_shareinfo=58584327ead0f681742c93e21afbaa98&sharer_shareinfo_first=58584327ead0f681742c93e21afbaa98#rd)
+## 教程地址: [点击查看iOS巨魔使用教程](https://mp.weixin.qq.com/s?__biz=Mzg5OTgzNTgxNQ==&mid=2247502087&idx=2&sn=1589cda6d67b180880ff0ead7b55243d&chksm=c04fbbcff73832d9879f15d608c574e7b90561069feaafc7bfc6022f210dc87cd309d5e0795f&mpshare=1&scene=23&srcid=0408IfVzLvBGmniYF32NX0XW&sharer_shareinfo=58584327ead0f681742c93e21afbaa98&sharer_shareinfo_first=58584327ead0f681742c93e21afbaa98#rd)
 ![](https://mmbiz.qpic.cn/mmbiz_jpg/CqwzFPUx3cu07LOlnBA47neoqVRzHibxVMEXNtc7DoNCWT0P7Saia0Uod1scSu7V1YZ1d9jMQhgia5gxHJm1eSe6g/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
 # 巨魔二代 iOS15.0-16.6.1 新手指南
@@ -13,6 +13,9 @@
 
 # 公众号Cydiapps 持续更新巨魔IPA和使用教程
 ![](https://mmbiz.qpic.cn/mmbiz_jpg/CqwzFPUx3ctlvhiaKFaaIwemTHgsib2zcTsXNvRxq9NGzEMQOUibFfKKvhuaC0U5SYLOV15EhjCLcvtruYkiaa6ang/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+## iOS刷Android -安卓越狱苹果
+[跳转=>iOS刷Android -安卓越狱苹果](https://mp.weixin.qq.com/s?__biz=Mzg5OTgzNTgxNQ==&mid=2247502831&idx=1&sn=fefc59a2c4ab363968fd966fc85b53ac&chksm=c04fb927f7383031afacc4f4cd67114cce6a7827c193d82ebf36a7a021fcdb9d4c89637b730d&token=482476876&lang=zh_CN#rd)
 
 巨魔二代 更新支持 iOS16.5.1 - 16.6.1 （16.7）发布
 ## [巨魔二代 更新支持 iOS16.5.1 - 16.6.1 （16.7）发布](https://mp.weixin.qq.com/s?__biz=Mzg5OTgzNTgxNQ==&mid=2247499810&idx=1&sn=baa2a4d4788e11b5aa2728e9d6e853b4&chksm=c04fb2eaf7383bfc286ba52cee717d64e45063cdb6cf6026607ccfc717cf0e1fa8d29c744193&mpshare=1&scene=23&srcid=010325KqeD9sZ1JtPgQpP17y&sharer_shareinfo=fc90923edee2f19de2f26f72b9e1bcfe&sharer_shareinfo_first=fc90923edee2f19de2f26f72b9e1bcfe#rd)
